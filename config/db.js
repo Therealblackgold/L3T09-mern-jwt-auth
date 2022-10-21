@@ -1,4 +1,5 @@
 // This file handles connecting to mongoDB database
+// Using local mongoDB database switch LOCAL_MONGO_URI string in .env file for live database
 const mongoose = require("mongoose");
 async function connectToDb() {
   try {
